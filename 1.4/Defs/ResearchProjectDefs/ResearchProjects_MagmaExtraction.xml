@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>ISA_MagmaExtraction</defName>
+    <label>magma extraction</label>
+    <description>Research the magma and it's ability to act as a combustible fuel.</description>
+    <baseCost>1800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>3.00</researchViewY>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+</Defs>
