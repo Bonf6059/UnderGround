@@ -22,7 +22,7 @@
     </overlayOptions>
     <linkToRefuelables>
       <li>
-        <thing>ISA_Magma</thing>
+        <thing>Magma</thing>
         <ratio>1</ratio>
       </li>
     </linkToRefuelables>
