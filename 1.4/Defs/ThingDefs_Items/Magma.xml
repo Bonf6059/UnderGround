@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <ThingDef ParentName="ResourceBase">
-    <defName>ISA_Magma</defName>
+    <defName>Magma</defName>
     <label>magma</label>
     <description>magma.</description>
     <graphicData>
