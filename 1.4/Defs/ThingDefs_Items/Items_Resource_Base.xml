@@ -3,7 +3,7 @@
 
 <ThingDef ParentName="ResourceBase">
     <defName>Heatsteel</defName>
-    <label>Heatsteel</label>
+    <label>heatsteel</label>
     <description>Advanced spacer tech structural material. Heatsteel is extremely strong due to its unique molecular structure.</description>
     <graphicData>
       <texPath>Things/Item/Resource/Plasteel</texPath>
