@@ -48,7 +48,7 @@
       <li Class="CompProperties_Breakdownable" />
       <li Class="PipeSystem.CompProperties_DeepExtractor">
         <pipeNet>ISA_MagmaNet</pipeNet>
-        <deepThing>ISA_Magma</deepThing>
+        <deepThing>Magma</deepThing>
         <ticksPerPortion>250</ticksPerPortion>
         <onlyExtractToNet>true</onlyExtractToNet>
       </li>
