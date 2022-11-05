@@ -1,53 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  
   <PipeSystem.PipeNetDef>
-  <defName>ISA_MagmaNet</defName>
-  <!-- Tanks marked for transfer will output the bellow amount each net tick (each 100 game ticks)-->
-  <transferAmount>100</transferAmount>
-  <resource>
-    <!-- This is the name used in all the comps inspect panels -->
-    <name>Magma</name>
-    <!-- This is the unit, also used in all comps inspect panels -->
-    <unit>l</unit>
-    <!-- This is the resource color, it will be used by all storages of this net -->
-    <color>(0.68, 0.43, 0.19)</color>
-    <!-- If this is true, all things connected to net will have this line:
-             {name} stored in network: {storedAmount} {unit} 
-         Else: {name} excess (stored) in network: {production} {unit}/d ({storedAmount} {unit})
-         The latter should only be used if you plan to use CompResourceTrader.
-    -->
-    <onlyShowStored>True</onlyShowStored>
-    <!-- This is the texture that will be used to indicate a building is missing resource -->
-    <offTexPath>Things/Item/Resource/Chemfuel</offTexPath>
-  </resource>
-  <!-- All the pipe defs that can be part of this net -->
-  <pipeDefs>
-    <li>VCHE_ChemfuelPipe</li>
-  </pipeDefs>
-  <!-- Automatically create a designator that will only deconstructs net pipe(s) -->
-  <designator>
-    <!-- Texture-->
-    <deconstructIconPath>UI/Gizmos/ChemfuelPipes_Deconstruct</deconstructIconPath>
-    <!-- Designation category -->
-    <designationCategoryDef>VCHE_PipeNetworks</designationCategoryDef>
-  </designator>
-  <!-- The overlay show up when you select any building that connect to the net -->
-  <overlayOptions>
-    <!-- <transmitterAtlas></transmitterAtlas> If you don't want to use the premade atlas -->
-    <!-- The color of the overlay -->
-    <overlayColor>(0.68, 0.43, 0.19)</overlayColor>
-  </overlayOptions>
-  <!-- If you want the net to automatically connect and refuel other buildings -->
-  <linkToRefuelables>
-    <!-- You can add as many as you want -->
-    <li>
-      <!-- Connect to all chemfuel building -->
-      <thing>Magma</thing>
-      <!-- 1 in pipenet: 1 when refueling -->
-      <ratio>1</ratio>
-    </li>
-  </linkToRefuelables>
-</PipeSystem.PipeNetDef>
-  
+    <defName>ISA_MagmaNet</defName>
+    <resource>
+      <name>Magma</name>
+      <unit>l</unit>
+      <color>(0.22, 0.57, 0.2)</color>
+      <onlyShowStored>True</onlyShowStored>
+      <offTexPath>UI/Overlays/GasOff</offTexPath>
+    </resource>
+    <pipeDefs>
+      <li>ISA_MagmaPipe</li>
+      <li>ISA_SubterraneanMagmaPipe</li>
+    </pipeDefs>
+    <designator>
+      <deconstructIconPath>UI/Commands/GasPipeDeconstruct_MenuIcon</deconstructIconPath>
+      <designationCategoryDef>Power</designationCategoryDef>
+    </designator>
+    <overlayOptions>
+      <transmitterAtlas>Things/Special/Fluid/GasTransmitterAtlas</transmitterAtlas>
+    </overlayOptions>
+    <linkToRefuelables>
+      <li>
+        <thing>ISA_Magma</thing>
+        <ratio>1</ratio>
+      </li>
+    </linkToRefuelables>
+  </PipeSystem.PipeNetDef>
 </Defs>
