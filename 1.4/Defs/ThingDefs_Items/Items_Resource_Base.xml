@@ -9,6 +9,7 @@
       <texPath>Things/Item/Resource/Plasteel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
+    <techLevel>Industrial</techLevel>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
@@ -23,7 +24,22 @@
       <StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
       <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
       <BluntDamageMultiplier>0.9</BluntDamageMultiplier>
+      <WorkToMake>500</WorkToMake>
     </statBases>
+    <costList>
+      <Steel>3</Steel>
+      <Plasteel>1</Plasteel>
+    </costList>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
