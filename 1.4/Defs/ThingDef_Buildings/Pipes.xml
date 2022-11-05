@@ -68,7 +68,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>VHGE_SubterraneanMagmaPipe</defName>
+    <defName>ISA_SubterraneanMagmaPipe</defName>
     <label>subterranean magma pipe</label>
     <description>A pipe that transmits magma. This pipe is hidden from view and is protected from explosions. Much more expensive to build than regular pipes.</description>
     <thingClass>PipeSystem.Building_Pipe</thingClass>
