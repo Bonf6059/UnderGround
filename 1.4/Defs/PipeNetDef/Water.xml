@@ -18,7 +18,7 @@
       <designationCategoryDef>Power</designationCategoryDef>
     </designator>
     <overlayOptions>
-      <transmitterAtlas>Things/Special/Fluid/GasTransmitterAtlas</transmitterAtlas>
+      <transmitterAtlas>Things/Special/Fluid/WaterTransmitterAtlas</transmitterAtlas>
     </overlayOptions>
     <linkToRefuelables>
       <li>
