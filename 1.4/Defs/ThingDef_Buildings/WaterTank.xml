@@ -6,7 +6,7 @@
     <description>A large steel tank for water storage.</description>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
-      <texPath>Things/Building/Tank/Tank</texPath>
+      <texPath>Things/Building/Tank/WaterTank</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
       <damageData>
