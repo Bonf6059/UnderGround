@@ -8,7 +8,7 @@
     <category>Building</category>
     <tickerType>Rare</tickerType>
     <graphicData>
-      <texPath>Things/Building/Linked/GasPipe_Atlas</texPath>
+      <texPath>Things/Building/Linked/MagmaPipe_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>Basic</linkType>
       <linkFlags>
@@ -18,14 +18,14 @@
         <rect>(0,0.35,1,0.3)</rect>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/Linked/GasPipe_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Linked/MagmaPipe_MenuIcon</uiIconPath>
     <uiIconScale>1</uiIconScale>
     <building>
       <ai_chillDestination>false</ai_chillDestination>
       <isInert>true</isInert>
       <isEdifice>false</isEdifice>
       <blueprintGraphicData>
-        <texPath>Things/Building/Linked/GasPipe_Blueprint_Atlas</texPath>
+        <texPath>Things/Building/Linked/MagmaPipe_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
     </building>
     <drawerType>MapMeshOnly</drawerType>
@@ -85,14 +85,14 @@
         <rect>(0,0.35,1,0.3)</rect>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/Linked/GasPipe_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Linked/MagmaPipe_MenuIcon</uiIconPath>
     <uiIconScale>1</uiIconScale>
     <building>
       <ai_chillDestination>false</ai_chillDestination>
       <isInert>true</isInert>
       <isEdifice>false</isEdifice>
       <blueprintGraphicData>
-        <texPath>Things/Building/Linked/GasPipe_Blueprint_Atlas</texPath>
+        <texPath>Things/Building/Linked/MagmaPipe_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
     </building>
     <drawerType>MapMeshOnly</drawerType>
