@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Water</defName>
+    <label>water</label>
+    <description>water.</description>
+    <graphicData>
+      <texPath>UI/Overlays/NeedsWater</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>0.07</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <!-- Never appear -->
+    <destroyOnDrop>True</destroyOnDrop>
+    <canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+    <tradeability>None</tradeability>
+    <useHitPoints>false</useHitPoints>
+    <allowedArchonexusCount>0</allowedArchonexusCount>
+  </ThingDef>
+</Defs>
