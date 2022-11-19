@@ -5,7 +5,7 @@
     <label>magma</label>
     <description>magma.</description>
     <graphicData>
-      <texPath>UI/Overlays/NeedsGas</texPath>
+      <texPath>UI/Overlays/NeedsMagma</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
@@ -24,7 +24,7 @@
     <deepCountPerCell>2100</deepCountPerCell>
     <modExtensions>
       <li Class="VFECore.ThingDefExtension">
-        <deepColor>(0.72, 0.29, 0.29)</deepColor>
+        <deepColor>(1, 0, 0)</deepColor>
         <allowDeepDrill>false</allowDeepDrill>
       </li>
     </modExtensions>
