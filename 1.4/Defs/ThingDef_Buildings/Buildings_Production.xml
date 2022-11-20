@@ -22,7 +22,7 @@
     </stuffCategories>
     <costStuffCount>150</costStuffCount>
     <costList>
-      <Heatsteel>2</Heatsteel>
+      <Heatsteel>20</Heatsteel>
       <Steel>20</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
@@ -55,7 +55,7 @@
         <idleConsumptionPerTick>0</idleConsumptionPerTick>
       </li>
       <li Class="CompProperties_Flickable">
-        <commandTexture>Things/Special/Fluid/VHGE_OverlayBase</commandTexture>
+        <commandTexture>Things/Special/Fluid/ISA_MagmaOverlayBase</commandTexture>
         <commandLabelKey>VHGE_CommandToggleGas_Label</commandLabelKey>
         <commandDescKey>VHGE_CommandToggleGas_Desc</commandDescKey>
       </li>
@@ -137,7 +137,7 @@
         <idleConsumptionPerTick>0</idleConsumptionPerTick>
       </li>
       <li Class="CompProperties_Flickable">
-        <commandTexture>Things/Special/Fluid/VHGE_OverlayBase</commandTexture>
+        <commandTexture>Things/Special/Fluid/ISA_MagmaOverlayBase</commandTexture>
         <commandLabelKey>VHGE_CommandToggleGas_Label</commandLabelKey>
         <commandDescKey>VHGE_CommandToggleGas_Desc</commandDescKey>
       </li>
@@ -222,7 +222,7 @@
         <idleConsumptionPerTick>0</idleConsumptionPerTick>
       </li>
       <li Class="CompProperties_Flickable">
-        <commandTexture>Things/Special/Fluid/VHGE_OverlayBase</commandTexture>
+        <commandTexture>Things/Special/Fluid/ISA_MagmaOverlayBase</commandTexture>
         <commandLabelKey>VHGE_CommandToggleGas_Label</commandLabelKey>
         <commandDescKey>VHGE_CommandToggleGas_Desc</commandDescKey>
       </li>
@@ -305,7 +305,7 @@
         <idleConsumptionPerTick>0</idleConsumptionPerTick>
       </li>
       <li Class="CompProperties_Flickable">
-        <commandTexture>Things/Special/Fluid/VHGE_OverlayBase</commandTexture>
+        <commandTexture>Things/Special/Fluid/ISA_MagmaOverlayBase</commandTexture>
         <commandLabelKey>VHGE_CommandToggleGas_Label</commandLabelKey>
         <commandDescKey>VHGE_CommandToggleGas_Desc</commandDescKey>
       </li>
@@ -359,7 +359,7 @@
         <idleConsumptionPerTick>0</idleConsumptionPerTick>
       </li>
       <li Class="CompProperties_Flickable">
-        <commandTexture>Things/Special/Fluid/VHGE_OverlayBase</commandTexture>
+        <commandTexture>Things/Special/Fluid/ISA_MagmaOverlayBase</commandTexture>
         <commandLabelKey>VHGE_CommandToggleGas_Label</commandLabelKey>
         <commandDescKey>VHGE_CommandToggleGas_Desc</commandDescKey>
       </li>
